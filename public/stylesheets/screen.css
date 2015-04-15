@@ -1,0 +1,135 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("http://fonts.googleapis.com/css?family=Raleway:400,700|Arvo:400,700");
+/* line 6, ../sass/_bootswatch.scss */
+.navbar {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+/* line 11, ../sass/_bootswatch.scss */
+.navbar-default .badge {
+  background-color: #000;
+  color: #fff;
+}
+/* line 17, ../sass/_bootswatch.scss */
+.navbar-inverse .badge {
+  background-color: #fff;
+  color: #EB6864;
+}
+
+/* line 24, ../sass/_bootswatch.scss */
+.navbar-brand {
+  font-size: inherit;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* line 35, ../sass/_bootswatch.scss */
+.has-warning .help-block, .has-warning .control-label, .has-warning .form-control-feedback {
+  color: #F57A00;
+}
+/* line 38, ../sass/_bootswatch.scss */
+.has-warning .form-control,
+.has-warning .form-control:focus {
+  border-color: #F57A00;
+}
+
+/* line 45, ../sass/_bootswatch.scss */
+.has-error .help-block, .has-error .control-label, .has-error .form-control-feedback {
+  color: #EB6864;
+}
+/* line 48, ../sass/_bootswatch.scss */
+.has-error .form-control,
+.has-error .form-control:focus {
+  border-color: #EB6864;
+}
+
+/* line 55, ../sass/_bootswatch.scss */
+.has-success .help-block, .has-success .control-label, .has-success .form-control-feedback {
+  color: #22B24C;
+}
+/* line 58, ../sass/_bootswatch.scss */
+.has-success .form-control,
+.has-success .form-control:focus {
+  border-color: #22B24C;
+}
+
+/* line 66, ../sass/_bootswatch.scss */
+.badge {
+  padding-bottom: 4px;
+  vertical-align: 3px;
+  font-size: 10px;
+}
+
+/* line 75, ../sass/_bootswatch.scss */
+.jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron h4, .jumbotron h5, .jumbotron h6 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #000;
+}
+
+/* line 84, ../sass/_bootswatch.scss */
+.panel-primary .panel-title, .panel-success .panel-title, .panel-warning .panel-title, .panel-danger .panel-title, .panel-info .panel-title {
+  color: #fff;
+}
+
+/* line 91, ../sass/_bootswatch.scss */
+#contentarea video {
+  width: 100%;
+}
+
+/* line 95, ../sass/_bootswatch.scss */
+.accordionmenu a {
+  outline: none;
+}
+
+/* line 100, ../sass/_bootswatch.scss */
+.submenu a {
+  background: #eeeeee;
+  padding-left: 15px;
+  outline: none;
+}
+/* line 105, ../sass/_bootswatch.scss */
+.submenu a:focus, .submenu a:active {
+  outline: none;
+}
+
+/* line 1, ../sass/_player.scss */
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+/* line 6, ../sass/_player.scss */
+#media-player {
+  position: relative;
+}
+/* line 8, ../sass/_player.scss */
+#media-player video {
+  width: 100%;
+}
+/* line 11, ../sass/_player.scss */
+#media-player #media-controls {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* line 18, ../sass/_player.scss */
+#media-player #media-controls button {
+  position: absolute;
+  width: 20vw;
+  height: 20vw;
+  background-color: transparent;
+  background-image: url(../images/play.png);
+  background-size: contain;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25%;
+  border: none;
+}
