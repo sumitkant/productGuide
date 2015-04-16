@@ -20,6 +20,8 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.locals.appdata = require('./data.json')
+// app.locals is an object and anytime we add elemnt to an object it becomes attached to the object
 app.use('/', routes);
 
 // catch 404 and forward to error handler

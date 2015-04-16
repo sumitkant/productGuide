@@ -1,0 +1,50 @@
+{
+	"orders" : [
+		{
+		"creating an Order" : {
+				"heading" : "Creating an Order for Delivery",
+				"videoUrl" : "files/Orders/creatingadeliveryorder.mp4"
+			}	
+		},
+		{
+		"creating an takeaway Order" : {
+				"heading" : "Creating an Order for Delivery",
+				"videoUrl" : "files/Orders/creatingatakeawayorder.mp4"
+			}	
+		},
+		{
+		"Discarding an Order" : {
+				"heading" : "Discarding an Order",
+				"videoUrl" : "files/Orders/discardinganorder.mp4"
+			}	
+		},
+		{
+		"settling a bill thru cash" : {
+				"heading" : "Settling a bill through cash",
+				"videoUrl" : "files/Orders/settlingabillthrucash.mp4"
+			}	
+		},
+		{
+		"settling a bill thru card" : {
+				"heading" : "Creating an Order for Delivery",
+				"videoUrl" : "files/Orders/settlingabillthrucard.mp4"
+			}	
+		},
+		{
+			"voiding an order" : { 
+				"heading" : "Voiding an Order",
+				"videoUrl" : "files/Orders/voidinganorder.mp4"
+			}
+		}
+	],
+	"tables" : [
+		{
+			"heading": "Creating an Order",
+			"videoUrl": "files/Tables/creatingatableorder.mp4"
+		},
+		{
+			"heading": "Discarding an Order",
+			"videoUrl": "files/Tables/discardinganorder.mp4"	
+		}
+	]
+}

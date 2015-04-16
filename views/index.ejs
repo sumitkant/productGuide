@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head><% include partials/head.ejs %>  </head>
+<head><% include partials/template/head.ejs %>  </head>
 <body>
-	<% include partials/header.ejs %>
+	<% include partials/template/header.ejs %>
 	<div class="container" style="padding-top: 60px;">
-		<% include partials/menu.ejs %>
-		<div class="containerarea">
-			
+		<div class="row">
+			<div class="col-lg-3 col-md-4">
+				<% include partials/content/menu.ejs %>
+			</div>
+			<div class="col-lg-9 col-md-12">
+				<% include partials/content/videoContainer.ejs %>
+			</div>
 		</div>
 	</div>
-
-<% include partials/scripts.ejs %>
+	<% include partials/template/scripts.ejs %>
 </body>
-</html>	
+</html>
